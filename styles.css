@@ -1,0 +1,163 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #83B735;
+    color: #f0f0f0;
+    padding: 5px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.language-options {
+    margin-right: 15px;
+}
+
+.social-media-icons {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons a {
+    color: #f0f0f0;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.flag {
+    width: 15px;
+    height: 10px;
+    margin-right: 3px;
+}
+
+.language-options .btn {
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    background-color: #83B735;
+}
+
+.dropdown-item {
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
+.anchor-links a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #313131;
+    padding: 5px;
+}
+
+/* Navbar styles */
+.main-navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.top-navbar {
+    padding: 30px 230px;
+}
+
+.brand-name {
+    color: #121212;
+}
+
+.nav-link {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+}
+
+.dropdown-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid #121212;
+    font-size: 14px;
+}
+
+.dropdown-item i {
+    width: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #ffffff;
+    padding: 10px 215px;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 8px 14px;
+    color: #000;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.logo-img {
+    width: 200px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.input-group-prepend .btn {
+    color: black;
+    /* Set text color to white */
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.form-control {
+    width: 100%;
+    /* Make the search bar take 100% width */
+}
+
+.searchbar {
+    padding: 0 !important;
+}
+
+.al-a {
+    font-weight: 500;
+    font-size: 10px !important;
+    color: #f0f0f0 !important;
+    padding: 10px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #83B735;
+    /* Change color to green */
+}
+
+.carousel-inner{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
